@@ -23,7 +23,7 @@ export const projects = [
     title: "Modern-Bank-UI",
     description:
       "A modern bank UI I developed with React, TypeScript, TailwindCSS. ",
-    image: "/images/3.jpg",
+    image: "/images/3.png",
     tags: ["React", "WebRTC"],
     source: "https://github.com/Nkurclebert/Modern-bank-UI",
     visit: "https://modern-bank-ui-bice.vercel.app/",
@@ -33,7 +33,7 @@ export const projects = [
     title: "Banking-Application",
     description:
       "a banking app with a finance management dashboard that connects multiple bank accounts, displays real-time transactions, and allows you to transfer money to other users on the platform using Next.js 14.",
-    image: "/images/4.jpg",
+    image: "/images/4.png",
     tags: ["ReactHook form", "Typescript", "Zod", "Next.js"],
     source: "https://github.com/Nkurclebert/banking-application",
     visit: "https://banking-application-steel.vercel.app",

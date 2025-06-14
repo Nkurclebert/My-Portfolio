@@ -8,6 +8,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+import { Slogan } from "../Footer/FooterStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -19,6 +20,8 @@ const Hero = (props) => (
       <SectionText style={{ paddingBottom: "64px" }}>
         I'm a full-stack web developer from Rwanda
       </SectionText>
+
+      <Slogan>"~Passionate to build. Eager to grow."</Slogan>
       <Button onClick={() => (window.location = "/#footer")}>Contact Me</Button>
     </LeftSection>
   </Section>
