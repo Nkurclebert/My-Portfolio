@@ -42,9 +42,20 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2024, text: "Started my journey" },
+  {
+    year: "Jan'25",
+    text: "Certified in responsive web design by freeCodeCamp",
+  },
+
+  {
+    year: "Feb'25",
+    text: "Certified in javascript algorithms and data structures by freeCodeCamp",
+  },
+  {
+    year: "Mar'25",
+    text: "Certified in front-end development libraries by freeCodeCamp",
+  },
+
+  { year: "Apr'25", text: "Shared my projects with the world" },
 ];

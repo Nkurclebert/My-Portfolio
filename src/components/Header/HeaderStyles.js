@@ -36,7 +36,7 @@ export const Div2 = styled.div`
   display: flex;
   justify-content: space-around;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    display: none;
   }
 `;
 export const Div3 = styled.div`
@@ -46,7 +46,7 @@ export const Div3 = styled.div`
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
 `;
 
@@ -123,5 +123,82 @@ export const SocialIcons = styled.a`
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
+  }
+`;
+
+export const Hamburger = styled.button`
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  z-index: 1100;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  span {
+    position: absolute;
+    left: 4px;
+    width: 24px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  span:nth-child(1) {
+    top: 8px;
+    transform: ${({ open }) =>
+      open ? "rotate(45deg) translateY(8px)" : "none"};
+  }
+  span:nth-child(2) {
+    top: 15px;
+    opacity: ${({ open }) => (open ? 0 : 1)};
+  }
+  span:nth-child(3) {
+    top: 22px;
+    transform: ${({ open }) =>
+      open ? "rotate(-45deg) translateY(-8px)" : "none"};
+  }
+`;
+
+export const MobileNav = styled.div`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: ${({ open }) => (open ? "flex" : "none")};
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    background: #212d45;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+    z-index: 1000;
+    box-shadow: -2px 0 16px rgba(0, 0, 0, 0.2);
+  }
+  li {
+    margin-bottom: 1.5rem;
+    list-style: none;
+  }
+`;
+
+export const HamburgerWrapper = styled.div`
+  grid-area: 1 / 5 / 2 / 6;
+  display: none;
+  justify-content: flex-end;
+  align-items: center;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
   }
 `;

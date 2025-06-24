@@ -153,3 +153,11 @@ export const LinkTitle = styled.h4`
     margin-bottom: 8px;
   }
 `;
+
+export const FooterText = styled.p`
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 1rem 0;
+`;

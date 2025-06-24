@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
+  FooterText,
   FooterWrapper,
   LinkColumn,
   LinkItem,
@@ -32,22 +33,23 @@ const Footer = () => {
       </LinkList>
 
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>- "Coding the future, debugging the present."</Slogan>
-        </CompanyContainer>
-
         <SocialIconsContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/Nkurclebert">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href="https://www.linkedin.com/in/nkuranga-clebert-26a067232/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://instagram.com">
+          <SocialIcons href="https://instagram.com/clebertnkuranga/?next=%2F">
             <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialIconsContainer>
       </SocialIconsContainer>
+
+      <CompanyContainer>
+        <Slogan>- "Coding the future, debugging the present."</Slogan>
+      </CompanyContainer>
+      <FooterText>All rights reserved @ 2025</FooterText>
     </FooterWrapper>
   );
 };
