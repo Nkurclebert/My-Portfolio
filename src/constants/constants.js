@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Apple-landing-page-ui",
+    description:
+      "This is an Apple landing page web app design I developed with React and Vite with a Figma design. It is a simple and responsive web application that showcases the capabilities of React and Vite.",
+    image: "/images/0.png",
+    tags: ["Vite", "Figma", "React", "tailwindcss"],
+    source: "https://github.com/Nkurclebert/macbook_webApp",
+    visit: "https://macbook-web-app.vercel.app/",
+    id: 0,
+  },
+  {
     title: "GPT-3-ui-project",
     description:
       "This is a GPT3 web app design I developed with React, TypeScript with a Figma design. It is a simple and responsive web application that showcases the capabilities of OpenAI's GPT-3 model. ",
