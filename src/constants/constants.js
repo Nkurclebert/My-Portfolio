@@ -49,6 +49,16 @@ export const projects = [
     visit: "https://banking-application-steel.vercel.app",
     id: 3,
   },
+  {
+    title: "Macbook-portfolio",
+    description:
+      "A portfolio web app design I developed with React and Vite with a Figma design. It is a simple and responsive web application that showcases the capabilities of React and Vite.",
+    image: "/images/7.png",
+    tags: ["Vite", "Figma", "React", "tailwindcss"],
+    source: "https://github.com/Nkurclebert/MacOs_Portfolio",
+    visit: "https://mac-os-portfolio-lemon-eta.vercel.app/",
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
