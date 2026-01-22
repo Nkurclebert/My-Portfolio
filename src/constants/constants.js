@@ -10,6 +10,16 @@ export const projects = [
     id: 0,
   },
   {
+    title: "Cocktail-Landing-page",
+    description:
+      "A modern cocktail website built with React and TailwindCSS, featuring smooth GSAP animations such as SplitText reveals, scroll-triggered effects, parallax scrolling, and a custom carousel. ",
+    image: "/images/8.png",
+    tags: ["Vanilla JavaScript", "Figma", "React", "tailwindcss"],
+    source: "https://github.com/Nkurclebert/GSAP_Landing_Page",
+    visit: "https://gsap-landing-page-blond.vercel.app/",
+    id: 1,
+  },
+  {
     title: "GPT-3-ui-project",
     description:
       "This is a GPT3 web app design I developed with React, TypeScript with a Figma design. It is a simple and responsive web application that showcases the capabilities of OpenAI's GPT-3 model. ",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["TypeScript", "Figma", "React", "tailwindcss"],
     source: "https://github.com/Nkurclebert/GPT3-UI-Project",
     visit: "https://gpt-3-ui-project-alpha.vercel.app/",
-    id: 0,
+    id: 2,
   },
   {
     title: "Restaurant-website-ui",
@@ -27,7 +37,7 @@ export const projects = [
     tags: ["React", "TypeScript", "Figma", "tailwindcss"],
     source: "https://github.com/Nkurclebert/Restaurant-website-UI-",
     visit: "https://restaurant-website-ui-seven.vercel.app/",
-    id: 1,
+    id: 3,
   },
   {
     title: "Modern-Bank-UI",
@@ -37,7 +47,7 @@ export const projects = [
     tags: ["React", "WebRTC"],
     source: "https://github.com/Nkurclebert/Modern-bank-UI",
     visit: "https://modern-bank-ui-bice.vercel.app/",
-    id: 2,
+    id: 4,
   },
   {
     title: "Banking-Application",
@@ -47,7 +57,7 @@ export const projects = [
     tags: ["ReactHook form", "Typescript", "Zod", "Next.js"],
     source: "https://github.com/Nkurclebert/banking-application",
     visit: "https://banking-application-steel.vercel.app",
-    id: 3,
+    id: 5,
   },
   {
     title: "Macbook-portfolio",
@@ -57,7 +67,7 @@ export const projects = [
     tags: ["Vite", "Figma", "React", "tailwindcss"],
     source: "https://github.com/Nkurclebert/MacOs_Portfolio",
     visit: "https://mac-os-portfolio-lemon-eta.vercel.app/",
-    id: 3,
+    id: 6,
   },
 ];
 
